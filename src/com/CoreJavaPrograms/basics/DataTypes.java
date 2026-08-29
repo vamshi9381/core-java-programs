@@ -12,7 +12,7 @@ public class DataTypes {
 
         System.out.println("BYTE");
         System.out.println("Value : " + byteValue);
-        System.out.println("Size  : " + Byte.BYTES + " byte");
+      System.out.println("Size  : " + Byte.BYTES + " byte");
         System.out.println("Min   : " + Byte.MIN_VALUE);
         System.out.println("Max   : " + Byte.MAX_VALUE);
 
@@ -24,8 +24,8 @@ public class DataTypes {
 
         System.out.println("\nSHORT");
         System.out.println("Value : " + shortValue);
-        System.out.println("Size  : " + Short.BYTES + " bytes");
-        System.out.println("Min   : " + Short.MIN_VALUE);
+       System.out.println("Size  : " + Short.BYTES + " bytes");
+      System.out.println("Min   : " + Short.MIN_VALUE);
         System.out.println("Max   : " + Short.MAX_VALUE);
 
 
@@ -35,10 +35,10 @@ public class DataTypes {
         int intValue = 100000;
 
         System.out.println("\nINT");
-        System.out.println("Value : " + intValue);
+       System.out.println("Value : " + intValue);
         System.out.println("Size  : " + Integer.BYTES + " bytes");
         System.out.println("Min   : " + Integer.MIN_VALUE);
-        System.out.println("Max   : " + Integer.MAX_VALUE);
+       System.out.println("Max   : " + Integer.MAX_VALUE);
 
 
         // =====================================================
@@ -47,9 +47,9 @@ public class DataTypes {
         long longValue = 10000000000L;
 
         System.out.println("\nLONG");
-        System.out.println("Value : " + longValue);
-        System.out.println("Size  : " + Long.BYTES + " bytes");
-        System.out.println("Min   : " + Long.MIN_VALUE);
+       System.out.println("Value : " + longValue);
+       System.out.println("Size  : " + Long.BYTES + " bytes");
+     System.out.println("Min   : " + Long.MIN_VALUE);
         System.out.println("Max   : " + Long.MAX_VALUE);
 
 
@@ -60,9 +60,9 @@ public class DataTypes {
 
         System.out.println("\nFLOAT");
         System.out.println("Value : " + floatValue);
-        System.out.println("Size  : " + Float.BYTES + " bytes");
+      System.out.println("Size  : " + Float.BYTES + " bytes");
         System.out.println("Min   : " + Float.MIN_VALUE);
-        System.out.println("Max   : " + Float.MAX_VALUE);
+      System.out.println("Max   : " + Float.MAX_VALUE);
 
 
         // =====================================================
@@ -72,8 +72,8 @@ public class DataTypes {
 
         System.out.println("\nDOUBLE");
         System.out.println("Value : " + doubleValue);
-        System.out.println("Size  : " + Double.BYTES + " bytes");
-        System.out.println("Min   : " + Double.MIN_VALUE);
+     System.out.println("Size  : " + Double.BYTES + " bytes");
+      System.out.println("Min   : " + Double.MIN_VALUE);
         System.out.println("Max   : " + Double.MAX_VALUE);
 
 
@@ -185,7 +185,7 @@ public class DataTypes {
         var isJavaEasy = true;
 
         System.out.println("\nVAR");
-        System.out.println("Age          : " + age);
+    System.out.println("Age          : " + age);
         System.out.println("Name         : " + studentName);
         System.out.println("Salary       : " + salary);
         System.out.println("Java Easy?   : " + isJavaEasy);
